@@ -93,17 +93,11 @@ Project Structure
 
 Active_Suspension_Control/
 
-│
-
 ├── matlab_code/
 
 ├── simulink_model/
 
 ├── images/
-
-├── report.pdf
-
-├── presentation.pptx
 
 ├── demo_video.mp4
 
