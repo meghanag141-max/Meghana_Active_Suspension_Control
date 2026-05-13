@@ -149,6 +149,11 @@ The project demonstrates the effectiveness of control systems in improving ride 
 
 The simulation results confirm that the PD controller effectively improves damping behavior, reduces settling time, and enhances suspension system stability under disturbance conditions.
 
+Demo Video
+
+A demonstration video showing the MATLAB simulation and response analysis is included in this repository.
+
+File: VID-20260513-WA0007.mp4
 
 Team Members
 
