@@ -108,7 +108,8 @@ Closed Loop Response with PD Controller
 
 The closed-loop response demonstrates improved damping and faster stabilization after applying the PD controller.
 
-"Closed Loop Response" (Images/closed_loop_response.png)
+"Closed Loop Response"
+Images/Closed loop Response with PD Controller  .jpg
 
 
 Comparison of Responses
