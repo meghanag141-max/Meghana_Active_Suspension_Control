@@ -95,6 +95,35 @@ Active_Suspension_Control/
 
 4. README.md
 
+Simulation Results
+
+Open Loop Response
+
+The open-loop response shows the behavior of the suspension system without any controller.
+
+"Open Loop Response" (Images/open_loop_response.png)
+
+
+Closed Loop Response with PD Controller
+
+The closed-loop response demonstrates improved damping and faster stabilization after applying the PD controller.
+
+"Closed Loop Response" (Images/closed_loop_response.png)
+
+
+Comparison of Responses
+
+The comparison graph clearly shows that the controlled system stabilizes faster than the uncontrolled system.
+
+"Comparison Plot" (Images/comparison_plot.png)
+
+
+Road Disturbance Response
+
+This graph shows the system response under continuous road disturbance conditions.
+
+"Road Disturbance Response" (Images/road_disturbance_response.png)
+
 
 Tools and Technologies Used
 
