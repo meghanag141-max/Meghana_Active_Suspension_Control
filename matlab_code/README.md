@@ -1,88 +1,104 @@
-% ACTIVE SUSPENSION CONTROL SYSTEM USING MATLAB 
-% Objective:
-% To minimize vehicle body vibrations caused by road disturbances
-% and improve damping behavior using a PD controller.
-% Transfer Function of Suspension System:
-% G(s) = 1 / (s^2 + 3s + 2)
-% Controller Used:
-% PD Controller
+clc;
+clear;
+close all;
 
-clc;        % Clears command window
-clear;      % Clears workspace variables
-close all;  % Closes all figure windows
+%% ACTIVE SUSPENSION CONTROL USING PD CONTROLLER
+% This project demonstrates how a PD controller
+% improves vehicle suspension performance by
+% reducing vibrations and improving stability.
 
-% DEFINE TRANSFER FUNCTION 
-s = tf('s');    % Define Laplace variable 's'
+%% DEFINE TRANSFER FUNCTION
+
+s = tf('s');
 
 % Suspension System Transfer Function
+% Represents vehicle body dynamics
+
 G = 1/(s^2 + 3*s + 2);
 
-% OPEN LOOP RESPONSE ANALYSIS
-% This shows the system behavior without any controller.
+disp('Suspension System:')
+G
+
+%% OPEN LOOP RESPONSE
+% Suspension WITHOUT controller
 
 figure;
-step(G);    % Step response of open-loop system
-title('Open Loop Response');
-xlabel('Time (seconds)');
-ylabel('Amplitude');
+step(G);
+title('Open Loop Suspension Response');
+xlabel('Time (sec)');
+ylabel('Displacement');
 grid on;
 
-% Display open-loop performance metrics
-disp('Open Loop Performance);
-stepinfo(G)
-% PD CONTROLLER DESIGN
-% Kp = Proportional Gain
-% Kd = Derivative Gain
-% Proportional gain improves response speed.
-% Derivative gain improves damping and reduces oscillations.
+disp('Open Loop Performance:')
+open_info = stepinfo(G)
+
+%% PD CONTROLLER DESIGN
+% P improves response speed
+% D reduces oscillations
 
 Kp = 15;
 Kd = 8;
 
-% PD Controller Transfer Function
 C = Kp + Kd*s;
-% CLOSED LOOP SYSTEM
-% feedback() creates the closed-loop transfer function.
+
+disp('PD Controller Designed')
+
+%% CLOSED LOOP SYSTEM
+% Active suspension using feedback control
+
 T = feedback(C*G,1);
-% CLOSED LOOP RESPONSE ANALYSIS
-% This shows the improved system response after applying
-% the PD controller.
+
+%% CLOSED LOOP RESPONSE
+% Suspension WITH PD controller
 
 figure;
-step(T);    % Step response of controlled system
+step(T);
 title('Closed Loop Response with PD Controller');
-xlabel('Time (seconds)');
-ylabel('Amplitude');
+xlabel('Time (sec)');
+ylabel('Displacement');
 grid on;
 
-% Display closed-loop performance metrics
-disp('Closed Loop Performance');
-stepinfo(T)
-% RESPONSE COMPARISON
-% Compare uncontrolled and controlled system responses.
+disp('Closed Loop Performance:')
+closed_info = stepinfo(T)
+
+%% COMPARISON OF RESPONSES
+% Comparison between uncontrolled and controlled system
 
 figure;
-
-% Open-loop response in red
-step(G,'r', ...
-
-% Closed-loop response in blue
-T,'b');
-
-legend('Uncontrolled System','Controlled System');
-
-title('Comparison of Responses');
-
-xlabel('Time (seconds)');
-ylabel('Amplitude');
-
+step(G,'r',T,'b');
+legend('Uncontrolled System','PD Controlled System');
+title('Comparison of Suspension Responses');
+xlabel('Time (sec)');
+ylabel('Displacement');
 grid on;
-% CONCLUSION
-% The PD controller significantly improved the suspension
-% system performance by:
-%
-% 1. Reducing settling time
-% 2. Improving damping behavior
-% 3. Minimizing oscillations
-% 4. Enhancing ride comfort and stability
+
+%% ROAD DISTURBANCE SIMULATION
+% Simulates rough road conditions
+
+t = 0:0.01:10;
+
+road_bump = 0.5*sin(2*t);
+
+figure;
+lsim(T,road_bump,t);
+title('Response to Road Disturbance');
+xlabel('Time (sec)');
+ylabel('Displacement');
+grid on;
+
+%% PERFORMANCE IMPROVEMENT
+
+improvement = ((open_info.SettlingTime - closed_info.SettlingTime) ...
+               / open_info.SettlingTime)*100;
+
+fprintf('\nSettling Time Improved by %.2f%%\n', improvement);
+
+%% FINAL MESSAGE
+
+disp('-----------------------------------')
+disp('ACTIVE SUSPENSION CONTROL COMPLETE')
+disp('PD Controller Reduced Vibrations')
+disp('Improved Ride Comfort Successfully')
+disp('-----------------------------------')
+
 
