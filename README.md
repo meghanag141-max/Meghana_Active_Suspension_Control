@@ -70,17 +70,34 @@ The following analyses were performed:
 - Step response comparison
 - Performance evaluation
 
-
 Performance Metrics
 
-The controlled system showed significant improvement compared to the uncontrolled system.
+Open Loop System
 
-Improvements Achieved
+- Rise Time: 2.5901 s
+- Transient Time: 4.6002 s
+- Settling Time: 4.6002 s
+- Overshoot: 0 %
+- Peak Value: 0.4996
+- Peak Time: 7.7827 s
 
-- Reduced settling time
-- Reduced oscillations
-- Improved damping behavior
-- Enhanced system stability
+Closed Loop System
+
+- Rise Time: 0.2462 s
+- Transient Time: 0.4536 s
+- Settling Time: 0.4536 s
+- Overshoot: 0 %
+- Peak Value: 0.8821
+- Peak Time: 2.0103 s
+
+Performance Improvement
+
+- Settling Time Improved by 90.14%
+- Vibrations were significantly reduced using the PD controller
+- Damping behavior was improved
+- Ride comfort and suspension stability were enhanced successfully
+
+The simulation results confirm that the PD controller effectively improves the performance of the active suspension system under disturbance conditions. 
 
 
 Project Structure
