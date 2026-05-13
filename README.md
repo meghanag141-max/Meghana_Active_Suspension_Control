@@ -61,7 +61,7 @@ Advantages of PD Controller
 
 Simulation and Analysis
 
-The system was simulated using MATLAB and Simulink.
+The system was simulated using MATLAB
 
 The following analyses were performed:
 
@@ -89,19 +89,16 @@ Active_Suspension_Control/
 
 1. matlab_code/
 
-2. simulink_model/
+2. images/
 
-3. images/
+3. demo_video.mp4
 
-4. demo_video.mp4
-
-5. README.md
+4. README.md
 
 
 Tools and Technologies Used
 
 - MATLAB
-- Simulink
 - Control System Toolbox
 - GitHub
 
