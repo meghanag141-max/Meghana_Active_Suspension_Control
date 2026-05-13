@@ -98,7 +98,4 @@ fprintf('\nSettling Time Improved by %.2f%%\n', improvement);
 disp('-----------------------------------')
 disp('ACTIVE SUSPENSION CONTROL COMPLETE')
 disp('PD Controller Reduced Vibrations')
-disp('Improved Ride Comfort Successfully')
-disp('-----------------------------------')
-
-
+disp('Improved Ride Comfort')
