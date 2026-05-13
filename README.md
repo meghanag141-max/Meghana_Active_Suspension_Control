@@ -122,7 +122,7 @@ Road Disturbance Response
 
 The system exhibits improved vibration suppression under road disturbance conditions.
 
-"Road Disturbance Response" (Images/road_disturbance_response.png)
+"Road Disturbance Response" https://raw.githubusercontent.com/meghanag141-max/Meghana_Active_Suspension_Control/refs/heads/main/Images/Response%20to%20Road%20Disturbance%20.jpg
 
 Tools and Technologies Used
 
