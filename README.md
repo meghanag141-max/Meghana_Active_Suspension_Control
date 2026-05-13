@@ -101,7 +101,7 @@ Open Loop Response
 
 The open-loop response shows the behavior of the suspension system without any controller.
 
-"Open Loop Response" (Images/open_loop_response.png)
+"Open Loop Response" https://raw.githubusercontent.com/meghanag141-max/Meghana_Active_Suspension_Control/refs/heads/main/Images/Open%20Loop%20Suspension%20Response.jpg
 
 
 Closed Loop Response
