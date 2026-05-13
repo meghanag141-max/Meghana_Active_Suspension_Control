@@ -108,14 +108,14 @@ Closed Loop Response
 
 The closed-loop response demonstrates improved damping and faster stabilization after applying the PD controller.
 
-"Closed Loop Response" (Images/closed_loop_response.png)
+"Closed Loop Response" https://raw.githubusercontent.com/meghanag141-max/Meghana_Active_Suspension_Control/refs/heads/main/Images/Closed%20loop%20Response%20with%20PD%20Controller%20%20.jpg
 
 
 Comparison of Responses
 
 The comparison graph shows that the controlled system settles much faster than the uncontrolled system.
 
-"Comparison Plot" (Images/comparison_plot.png)
+"Comparison Plot" https://raw.githubusercontent.com/meghanag141-max/Meghana_Active_Suspension_Control/refs/heads/main/Images/Comparison%20of%20Suspension%20Responses.jpg
 
 
 Road Disturbance Response
