@@ -15,7 +15,6 @@ Objectives
 - Achieve settling time less than 5 seconds
 - Enhance ride comfort and vehicle stability
 
----
 
 Project Overview
 
@@ -25,7 +24,6 @@ The system is analyzed under road disturbance conditions (step input), and the c
 
 The proposed controller improves damping characteristics, reduces vibrations, and provides faster settling performance.
 
----
 
 System Model
 
@@ -39,7 +37,6 @@ Where:
 - Output → Vehicle Body Displacement
 - Disturbance → Road Bump
 
----
 
 Controller Design
 
@@ -61,7 +58,6 @@ Advantages of PD Controller
 - Faster stabilization
 - Better ride comfort
 
----
 
 Simulation and Analysis
 
@@ -74,7 +70,6 @@ The following analyses were performed:
 - Step response comparison
 - Performance evaluation
 
----
 
 Performance Metrics
 
@@ -87,23 +82,21 @@ Improvements Achieved
 - Improved damping behavior
 - Enhanced system stability
 
----
 
 Project Structure
 
 Active_Suspension_Control/
 
-├── matlab_code/
+1. matlab_code/
 
-├── simulink_model/
+2. simulink_model/
 
-├── images/
+3. images/
 
-├── demo_video.mp4
+4. demo_video.mp4
 
-└── README.md
+5. README.md
 
----
 
 Tools and Technologies Used
 
@@ -112,7 +105,6 @@ Tools and Technologies Used
 - Control System Toolbox
 - GitHub
 
----
 
 Future Scope
 
@@ -123,7 +115,6 @@ Possible future improvements include:
 - Real-time implementation
 - Smart sensor integration
 
----
 
 Conclusion
 
