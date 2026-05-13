@@ -122,14 +122,12 @@ The designed PD controller successfully improved the performance of the active s
 
 The project demonstrates the effectiveness of control systems in improving ride comfort and vehicle stability under road disturbance conditions.
 
----
 
 Team Members
 
 - Meghana G 
 - Nagamani C N
 
----
 
 Hackathon Submission
 
