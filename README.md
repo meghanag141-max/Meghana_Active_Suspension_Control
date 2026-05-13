@@ -147,6 +147,8 @@ The designed PD controller successfully improved the performance of the active s
 
 The project demonstrates the effectiveness of control systems in improving ride comfort and vehicle stability under road disturbance conditions.
 
+The simulation results confirm that the PD controller effectively improves damping behavior, reduces settling time, and enhances suspension system stability under disturbance conditions.
+
 
 Team Members
 
