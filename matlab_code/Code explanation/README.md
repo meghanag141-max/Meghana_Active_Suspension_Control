@@ -90,7 +90,51 @@ speed breakers
 road vibrations
 It checks whether the controller can handle disturbances.
 
-8. Performance Analysis
+8.Advanced Road Condition Analysis
+To further evaluate the effectiveness of the active suspension system, the controller was tested under different real-world road disturbance conditions.
+
+The following road profiles were simulated:
+
+1. Smooth Highway Road
+   Represents normal highway driving conditions with very small vibrations and smooth vehicle motion.
+
+2. Speed Breaker Condition
+   Simulates sudden elevation changes caused by speed breakers or road humps.
+
+3. Rough Road Condition
+   Represents uneven and continuously varying road surfaces that generate frequent vibrations.
+
+4. Pothole Disturbance
+   Simulates sudden downward impacts caused by potholes and damaged roads.
+
+These additional simulations help analyze the robustness of the PD controller under varying disturbance conditions.
+
+The results demonstrate that the active suspension system successfully:
+
+- reduces excessive body vibrations
+- improves damping behavior
+- maintains better vehicle stability
+- enhances passenger ride comfort
+
+Smart Active Suspension Concept
+
+Modern active suspension systems can be further improved using intelligent control techniques.
+
+In future implementations:
+
+- sensors can continuously monitor road conditions
+- controller gains can automatically adjust in real time
+- adaptive control can optimize suspension performance for different terrains
+
+Such smart suspension systems are highly useful in:
+
+- electric vehicles
+- autonomous vehicles
+- modern automotive safety systems
+
+The current project provides a foundational model for developing intelligent active suspension control systems.
+
+9. Performance Analysis
 This part:
 MATLAB
 stepinfo(T)
