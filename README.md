@@ -108,9 +108,7 @@ Active_Suspension_Control/
 
 2. images/
 
-3. demo_video.mp4
-
-4. README.md
+3. README.md
 
 Simulation Results
 
