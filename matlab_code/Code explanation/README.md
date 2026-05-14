@@ -78,7 +78,7 @@ step(G,'r',T,'b')
 compares:
 uncontrolled system
 controlled system
-This is the most important proof that: ✅ PD controller improved performance.
+This is the most important proof that: PD controller improved performance.
 
 7. Road Disturbance Simulation
 This part:
