@@ -148,6 +148,7 @@ To further evaluate the performance of the active suspension system, the PD cont
 Smooth Highway Road
 
 Simulates smooth driving conditions with minimal road disturbances.
+https://raw.githubusercontent.com/meghanag141-max/Meghana_Active_Suspension_Control/refs/heads/main/Images/Response%20under%20Smooth%20road%20conditions.jpg
 
 Speed Breaker Condition
 
@@ -156,6 +157,7 @@ Represents sudden elevation changes caused by speed breakers or road humps.
 Rough Road Condition
 
 Simulates uneven road surfaces that generate continuous vibrations.
+https://raw.githubusercontent.com/meghanag141-max/Meghana_Active_Suspension_Control/refs/heads/main/Images/Responseunder%20rough%20road%20conditions.jpg
 
 Pothole Disturbance
 
