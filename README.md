@@ -130,14 +130,14 @@ Comparison of Responses
 
 The comparison graph shows that the controlled system settles much faster than the uncontrolled system.
 
-"Comparison Plot" https://raw.githubusercontent.com/meghanag141-max/Meghana_Active_Suspension_Control/refs/heads/main/Images/Comparison%20of%20Suspension%20Responses.jpg
+"Comparison Plot" 
 
 
 Road Disturbance Response
 
 The system exhibits improved vibration suppression under road disturbance conditions.
 
-"Road Disturbance Response" https://raw.githubusercontent.com/meghanag141-max/Meghana_Active_Suspension_Control/refs/heads/main/Images/Response%20to%20Road%20Disturbance%20.jpg
+"Road Disturbance Response" 
 
 Advanced Road Condition Analysis
 
@@ -146,22 +146,22 @@ To further evaluate the performance of the active suspension system, the PD cont
 Smooth Highway Road
 
 Simulates smooth driving conditions with minimal road disturbances.
-https://raw.githubusercontent.com/meghanag141-max/Meghana_Active_Suspension_Control/refs/heads/main/Images/Response%20under%20Smooth%20road%20conditions.jpg
+
 
 Speed Breaker Condition
 
 Represents sudden elevation changes caused by speed breakers or road humps.
-https://raw.githubusercontent.com/meghanag141-max/Meghana_Active_Suspension_Control/refs/heads/main/Images/Responseunder%20spead%20breaker%20conditions.jpg
+
 
 Rough Road Condition
 
 Simulates uneven road surfaces that generate continuous vibrations.
-https://raw.githubusercontent.com/meghanag141-max/Meghana_Active_Suspension_Control/refs/heads/main/Images/Responseunder%20rough%20road%20conditions.jpg
+
 
 Pothole Disturbance
 
 Represents sudden downward impacts caused by potholes and damaged roads.
-https://raw.githubusercontent.com/meghanag141-max/Meghana_Active_Suspension_Control/refs/heads/main/Images/Responseunder%20pothhole%20conditions.jpg
+
 
 The simulation results show that the PD controller effectively reduces vibrations and improves vehicle stability under different disturbance conditions.
 
