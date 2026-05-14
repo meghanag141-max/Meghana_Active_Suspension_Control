@@ -141,6 +141,28 @@ The system exhibits improved vibration suppression under road disturbance condit
 
 "Road Disturbance Response" https://raw.githubusercontent.com/meghanag141-max/Meghana_Active_Suspension_Control/refs/heads/main/Images/Response%20to%20Road%20Disturbance%20.jpg
 
+Advanced Road Condition Analysis
+
+To further evaluate the performance of the active suspension system, the PD controller was tested under different real-world road conditions.
+
+Smooth Highway Road
+
+Simulates smooth driving conditions with minimal road disturbances.
+
+Speed Breaker Condition
+
+Represents sudden elevation changes caused by speed breakers or road humps.
+
+Rough Road Condition
+
+Simulates uneven road surfaces that generate continuous vibrations.
+
+Pothole Disturbance
+
+Represents sudden downward impacts caused by potholes and damaged roads.
+
+The simulation results show that the PD controller effectively reduces vibrations and improves vehicle stability under different disturbance conditions.
+
 Tools and Technologies Used
 
 - MATLAB
