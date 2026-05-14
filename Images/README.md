@@ -16,3 +16,30 @@ This graph compares the uncontrolled suspension system with the PD-controlled su
 -> Response to Road Disturbance
 
 This graph simulates the suspension response under road disturbances such as bumps and uneven surfaces. The sinusoidal disturbance represents continuous road vibrations experienced by a moving vehicle. The PD-controlled suspension effectively suppresses excessive oscillations and maintains smoother vehicle motion. The response remains stable even under varying disturbance conditions, showing good robustness of the controller. This demonstrates the ability of the active suspension system to improve ride quality on rough roads.
+
+Advanced Road Condition Analysis
+To evaluate the performance of the active suspension system, a PD controller was tested under different real-world road conditions. Each graph compares the controlled system (PD controller) with the uncontrolled system (passive suspension) under identical inputs.
+
+-> Smooth Highway Road
+This condition represents ideal driving on a smooth highway with minimal disturbances.
+Uncontrolled system: Shows small but continuous oscillations due to natural vehicle dynamics.
+Controlled system (PD): Effectively suppresses vibrations and stabilizes the response quickly.
+Result: The PD controller improves ride comfort by reducing even minor vibrations.
+
+-> Speed Breaker Condition
+This condition simulates a sudden upward displacement caused by a speed breaker or road hump.
+Uncontrolled system: Exhibits high overshoot and prolonged oscillations after impact.
+Controlled system (PD): Reduces peak response and settles quickly.
+Result: Improved stability and reduced shock impact on passengers.
+
+-> Rough Road Condition
+This condition represents continuously uneven road surfaces causing frequent disturbances.
+Uncontrolled system: High-frequency and high-amplitude oscillations are observed.
+Controlled system (PD): Significantly reduces vibration amplitude and smooths the response.
+Result: Better damping performance under continuous disturbances.
+
+-> Pothole Disturbance
+This condition simulates a sudden downward displacement caused by potholes or road damage.
+Uncontrolled system: Large dip followed by strong rebound oscillations.
+Controlled system (PD): Reduces impact severity and quickly stabilizes motion.
+Result: Improved shock absorption and reduced rebound effect.
