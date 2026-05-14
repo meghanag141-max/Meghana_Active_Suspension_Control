@@ -153,6 +153,7 @@ https://raw.githubusercontent.com/meghanag141-max/Meghana_Active_Suspension_Cont
 Speed Breaker Condition
 
 Represents sudden elevation changes caused by speed breakers or road humps.
+https://raw.githubusercontent.com/meghanag141-max/Meghana_Active_Suspension_Control/refs/heads/main/Images/Responseunder%20spead%20breaker%20conditions.jpg
 
 Rough Road Condition
 
@@ -162,6 +163,7 @@ https://raw.githubusercontent.com/meghanag141-max/Meghana_Active_Suspension_Cont
 Pothole Disturbance
 
 Represents sudden downward impacts caused by potholes and damaged roads.
+https://raw.githubusercontent.com/meghanag141-max/Meghana_Active_Suspension_Control/refs/heads/main/Images/Responseunder%20pothhole%20conditions.jpg
 
 The simulation results show that the PD controller effectively reduces vibrations and improves vehicle stability under different disturbance conditions.
 
